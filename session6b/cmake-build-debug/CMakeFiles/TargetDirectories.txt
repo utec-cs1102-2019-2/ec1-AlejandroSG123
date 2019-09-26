@@ -1,0 +1,3 @@
+C:/Users/ALEJANDRO SG/Github/ec1-AlejandroSG123/session6b/cmake-build-debug/CMakeFiles/session6b.dir
+C:/Users/ALEJANDRO SG/Github/ec1-AlejandroSG123/session6b/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ALEJANDRO SG/Github/ec1-AlejandroSG123/session6b/cmake-build-debug/CMakeFiles/rebuild_cache.dir
