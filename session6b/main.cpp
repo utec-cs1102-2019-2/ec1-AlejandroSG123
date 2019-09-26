@@ -7,6 +7,6 @@ int main() {
     string *nombres = new string [n];
     int *edades = new int [n];
     char *sexo = new char [n];
-    
+
     return 0;
 }

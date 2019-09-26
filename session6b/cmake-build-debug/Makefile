@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named session6b_e2
+
+# Build rule for target.
+session6b_e2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 session6b_e2
+.PHONY : session6b_e2
+
+# fast build rule for target.
+session6b_e2/fast:
+	$(MAKE) -f CMakeFiles\session6b_e2.dir\build.make CMakeFiles/session6b_e2.dir/build
+.PHONY : session6b_e2/fast
+
+#=============================================================================
 # Target rules for targets named session6b
 
 # Build rule for target.
@@ -121,6 +134,73 @@ session6b: cmake_check_build_system
 session6b/fast:
 	$(MAKE) -f CMakeFiles\session6b.dir\build.make CMakeFiles/session6b.dir/build
 .PHONY : session6b/fast
+
+#=============================================================================
+# Target rules for targets named session6b_e3
+
+# Build rule for target.
+session6b_e3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 session6b_e3
+.PHONY : session6b_e3
+
+# fast build rule for target.
+session6b_e3/fast:
+	$(MAKE) -f CMakeFiles\session6b_e3.dir\build.make CMakeFiles/session6b_e3.dir/build
+.PHONY : session6b_e3/fast
+
+ejercicio2.obj: ejercicio2.cpp.obj
+
+.PHONY : ejercicio2.obj
+
+# target to build an object file
+ejercicio2.cpp.obj:
+	$(MAKE) -f CMakeFiles\session6b_e2.dir\build.make CMakeFiles/session6b_e2.dir/ejercicio2.cpp.obj
+.PHONY : ejercicio2.cpp.obj
+
+ejercicio2.i: ejercicio2.cpp.i
+
+.PHONY : ejercicio2.i
+
+# target to preprocess a source file
+ejercicio2.cpp.i:
+	$(MAKE) -f CMakeFiles\session6b_e2.dir\build.make CMakeFiles/session6b_e2.dir/ejercicio2.cpp.i
+.PHONY : ejercicio2.cpp.i
+
+ejercicio2.s: ejercicio2.cpp.s
+
+.PHONY : ejercicio2.s
+
+# target to generate assembly for a file
+ejercicio2.cpp.s:
+	$(MAKE) -f CMakeFiles\session6b_e2.dir\build.make CMakeFiles/session6b_e2.dir/ejercicio2.cpp.s
+.PHONY : ejercicio2.cpp.s
+
+ejercicio3.obj: ejercicio3.cpp.obj
+
+.PHONY : ejercicio3.obj
+
+# target to build an object file
+ejercicio3.cpp.obj:
+	$(MAKE) -f CMakeFiles\session6b_e3.dir\build.make CMakeFiles/session6b_e3.dir/ejercicio3.cpp.obj
+.PHONY : ejercicio3.cpp.obj
+
+ejercicio3.i: ejercicio3.cpp.i
+
+.PHONY : ejercicio3.i
+
+# target to preprocess a source file
+ejercicio3.cpp.i:
+	$(MAKE) -f CMakeFiles\session6b_e3.dir\build.make CMakeFiles/session6b_e3.dir/ejercicio3.cpp.i
+.PHONY : ejercicio3.cpp.i
+
+ejercicio3.s: ejercicio3.cpp.s
+
+.PHONY : ejercicio3.s
+
+# target to generate assembly for a file
+ejercicio3.cpp.s:
+	$(MAKE) -f CMakeFiles\session6b_e3.dir\build.make CMakeFiles/session6b_e3.dir/ejercicio3.cpp.s
+.PHONY : ejercicio3.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -155,9 +235,17 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... session6b_e2
 	@echo ... session6b
 	@echo ... edit_cache
+	@echo ... session6b_e3
 	@echo ... rebuild_cache
+	@echo ... ejercicio2.obj
+	@echo ... ejercicio2.i
+	@echo ... ejercicio2.s
+	@echo ... ejercicio3.obj
+	@echo ... ejercicio3.i
+	@echo ... ejercicio3.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
